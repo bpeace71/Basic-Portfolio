@@ -1,0 +1,116 @@
+body {
+	background-color: #bfbfbf;
+	color: #grey;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	margin: 0;
+	padding: 0;
+}
+
+#h1 {
+  	position: relative;
+  	padding: 20px 0;
+  	margin: 0;
+  	margin-bottom: 20px;
+  	background: #FFF;
+    height: 60px
+}
+
+#about-header {
+    position: fixed;
+    top: 125px;
+    left: 20px;
+    font-size: 28px;
+    color: #000;
+    text-align: left;
+    vertical-align: center;
+    background: #FFF;
+    width: 550px;
+    height: 550px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#box-1 {
+  	position: fixed;
+  	top: 0px;
+  	left: 20px;
+  	font-size: 40px;
+  	color: #fff;
+  	text-align: left;
+    vertical-align: center;
+  	background: #33cccc;
+  	width: 250px;
+    padding: 30px;
+}
+
+#me {
+  float: left;
+}
+
+#connect {
+    position: static;
+    top: 125px;
+    right: 20px;
+    font-size: 28px;
+    color: #000;
+    text-align: left;
+    vertical-align: center;
+    background: #FFF;
+    width: 350px;
+    height: 300px;
+    float: right
+}
+
+#linkage {
+    position: relative;
+  	top: 0;
+ 	  color: grey;
+    float: right;
+    padding: 20px 0;
+}
+
+#about {
+    position: relative;
+    color: #grey;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+    float: left;
+}
+
+img {
+  position: relative;
+}
+
+#footer {
+    position: relative;
+    top: 550px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    background: grey;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 60px
+}
